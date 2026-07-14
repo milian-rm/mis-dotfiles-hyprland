@@ -1,0 +1,24 @@
+* {
+  background-color: rgba(0, 0, 0, 0.88);
+  color: #ffffff;
+}
+
+window, .nautilus-window, .view {
+  background-color: rgba(0, 0, 0, 0.88);
+  color: #ffffff;
+}
+
+.sidebar, .nautilus-list-view, iconview {
+  background-color: rgba(0, 0, 0, 0.92);
+  color: #ffffff;
+}
+
+headerbar, .titlebar {
+  background-color: rgba(5, 5, 5, 0.95);
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.nautilus-canvas-item {
+  color: #ffffff;
+}

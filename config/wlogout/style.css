@@ -1,0 +1,53 @@
+* {
+    background-image: none;
+    box-shadow: none;
+    font-family: "JetBrainsMono Nerd Font";
+    color: white;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+button:focus, button:active {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: white;
+    outline: none;
+}
+
+#lock {
+    background-image: image(url("icons/lock.png"));
+}
+#hibernate {
+    background-image: image(url("icons/hibernate.png"));
+}
+#logout {
+    background-image: image(url("icons/logout.png"));
+}
+#shutdown {
+    background-image: image(url("icons/shutdown.png"));
+}
+#suspend {
+    background-image: image(url("icons/suspend.png"));
+}
+#reboot {
+    background-image: image(url("icons/reboot.png"));
+}

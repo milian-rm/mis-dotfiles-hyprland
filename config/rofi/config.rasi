@@ -1,0 +1,10 @@
+configuration {
+    modi:                "drun";
+    show-icons:          true;
+    drun-display-format: "{name}";
+    display-drun:        " Apps";
+    icon-theme:          "Papirus";
+    terminal:            "kitty";
+}
+
+@theme "theme.rasi"

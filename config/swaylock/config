@@ -1,0 +1,33 @@
+# Imagen de fondo
+image=/home/milian-rm/Downloads/1401469.png
+
+# Blur sobre la imagen
+effect-blur=7x5
+
+# Reloj
+clock
+timestr=%H:%M
+datestr=%A, %d de %B
+
+# Input de contraseña
+indicator
+indicator-radius=100
+indicator-thickness=7
+
+# Colores del indicador
+color=1e1e2e
+inside-color=1e1e2edd
+ring-color=89b4faff
+key-hl-color=a6e3a1ff
+bs-hl-color=f38ba8ff
+inside-wrong-color=f38ba8aa
+ring-wrong-color=f38ba8ff
+inside-ver-color=89dcebaa
+ring-ver-color=89dcebff
+text-color=cdd6f4ff
+text-wrong-color=f38ba8ff
+text-ver-color=89dcebff
+
+# Misc
+fade-in=0.2
+screenshots
